@@ -1,0 +1,122 @@
+/* Write your code here. */
+
+body {
+  margin: 0px;
+}
+* {
+  box-sizing: border-box;
+}
+
+.bg-container {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/social-buttons-bg.png');
+  height: 100vh;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.heading {
+  font-family: 'Bree Serif';
+  color: #ffffff;
+  font-size: 39px;
+}
+.button-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  height: 20%;
+}
+
+.like-button-styles {
+  background-color: #eab308;
+  font-family: 'roboto';
+  font-size: 16px;
+  font-weight: 500;
+  color: #ffffff;
+  border-radius: 13px;
+  border-width: 0px;
+  margin-bottom: 9px;
+  padding: 10px;
+  width: 70px;
+}
+.comment-button-styles {
+  background-color: #ffffff;
+  font-family: 'roboto';
+  font-size: 16px;
+  font-weight: 500;
+  color: #323f4b;
+  border-radius: 13px;
+  border-width: 0px;
+  margin-bottom: 9px;
+  padding: 10px;
+  width: 100px;
+}
+.share-button-styles {
+  background-color: #1d4ed8;
+  font-family: 'roboto';
+  font-size: 16px;
+  font-weight: 500;
+  color: #ffffff;
+  border-radius: 13px;
+  border-width: 0px;
+  margin-bottom: 9px;
+  padding: 10px;
+  width: 80px;
+}
+
+@media all and (min-width: 568px) {
+  .heading {
+    font-size: 56px;
+  }
+  .like-button-styles {
+    margin-bottom: 13px;
+    font-size: 22px;
+    padding: 10px;
+    width: 75px;
+  }
+  .comment-button-styles {
+    margin-bottom: 13px;
+    font-size: 22px;
+    padding: 10px;
+    width: 120px;
+  }
+  .share-button-styles {
+    font-size: 22px;
+    margin-bottom: 13px;
+    padding: 10px;
+    width: 86px;
+  }
+}
+@media all and (min-width: 768px) {
+  .heading {
+    font-size: 66px;
+  }
+  .like-button-styles {
+    margin-bottom: 13px;
+    font-size: 29px;
+    padding: 10px;
+    width: 83px;
+  }
+  .comment-button-styles {
+    margin-bottom: 13px;
+    font-size: 31px;
+    padding: 10px;
+    width: 160px;
+  }
+  .share-button-styles {
+    font-size: 29px;
+    margin-bottom: 13px;
+    padding: 10px;
+    width: 90px;
+  }
+  .button-container {
+    /* border: 2px solid white; */
+    width: 46%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
